@@ -1,0 +1,80 @@
+.admin-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 790px;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  }
+  
+  @media (max-width: 1250px) {
+    .admin-container {
+      display:flex;
+      flex-direction: column;
+    }
+
+  }
+  
+  .admin-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 400px;
+    width: 100%;
+   
+
+  }
+
+  @media (max-width: 750px) {
+    .admin-data {
+      display:flex;
+      flex-direction: column;
+    }
+    .result-table{
+  min-width:400px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow:hidden;
+    }
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+  
+    @media (max-width: 1250px) {
+        .result-table {
+            min-width:'600px';
+            min-height: '400px' ;
+
+        }}
+      
+  .result-table {
+    width: 100%;
+    margin: 10px 10px;
+    min-height: 400px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px rgba(190, 187, 187, 0.512);
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  
+  .result-table th {
+    
+    background-color: #e2dddd;
+  }
+  
+  .candidate-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  

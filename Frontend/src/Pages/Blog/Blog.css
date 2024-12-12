@@ -1,0 +1,27 @@
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0 px;
+    transition: transform 0.5s ease-out
+  }
+
+  .thumbnail img {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in; 
+  }
+  .thumbnail:hover img {
+    opacity: 0.8; 
+  }
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+
+  .thumbnail:hover {
+    transform: scale(1.2); 
+    max-width: 100vw; 
+    position: relative; 
+    z-index: 9; 
+  }

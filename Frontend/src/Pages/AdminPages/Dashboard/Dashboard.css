@@ -1,0 +1,10 @@
+ #sidebarMenu{
+   background-color: rgb(255, 255, 255);
+   min-width: 200px;
+    @media (min-width: 1250px) {
+
+      max-width: 300px;
+      min-height:400px;
+    }
+ }
+ 

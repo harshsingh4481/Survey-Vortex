@@ -1,0 +1,110 @@
+
+
+   .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+  }
+  @media screen and (max-width: 1025px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form{
+        min-width: 300px;
+    }
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form { display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="text"],
+  .form input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    min-height :425px;
+    min-width: 720px;
+    overflow-x: auto;
+    
+  }
+
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #6e6262;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  .table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .table button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .table button:last-child:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,16 @@
+.admin-container{
+    display: flex;
+    direction:ltr;
+    min-width:790;
+    background-color:rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+    @media (max-width: 1250px) {
+        flex-direction: column;
+      }
+}
+.admin-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 400px;
+
+}
